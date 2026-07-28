@@ -20,11 +20,11 @@ If a recipe almost-but-not-quite solves your problem, you have two options: fork
 
 ### Freight & logistics
 
-- [**freight-eta-customer-text**](./recipes/freight-eta-customer-text/) — Geofence pickup/drop, auto-text receiver when truck is one hour out. Works on top of Geotab, Samsara, or Motive APIs. Companion to our [freight-eta-toolkit](https://github.com/elikem2021/freight-eta-toolkit).
+- [**freight-eta-customer-text**](./recipes/freight-eta-customer-text/) — Geofence pickup/drop, auto-text receiver when truck is one hour out. Works on top of Geotab, Samsara, or Motive APIs. Companion to our [freight-eta-toolkit](https://github.com/avalux-io/freight-eta-toolkit).
 
 ### E-commerce
 
-- [**shopify-qbo-line-item-sync**](./recipes/shopify-qbo-line-item-sync/) — Idempotent line-item sync from Shopify orders to QuickBooks Online with proper account mapping. Companion to our [shopify-quickbooks-sync](https://github.com/elikem2021/shopify-quickbooks-sync) toolkit.
+- [**shopify-qbo-line-item-sync**](./recipes/shopify-qbo-line-item-sync/) — Idempotent line-item sync from Shopify orders to QuickBooks Online with proper account mapping. Companion to our [shopify-quickbooks-sync](https://github.com/avalux-io/shopify-quickbooks-sync) toolkit.
 
 ### Reputation & reviews
 
@@ -43,7 +43,7 @@ Each recipe directory has:
 
 Most recipes are designed to be deployed on:
 - A small VPS (Hetzner, Vultr, DigitalOcean — $5-10/month)
-- A self-hosted [n8n](https://github.com/elikem2021/n8n-self-hosted-toolkit) instance
+- A self-hosted [n8n](https://github.com/avalux-io/n8n-self-hosted-toolkit) instance
 - Or wired directly into your existing stack via webhooks
 
 ## What this is not
@@ -58,10 +58,10 @@ Run into a problem one of these recipes solves but find a bug or want to add a v
 
 ## Related projects we maintain
 
-- [freight-eta-toolkit](https://github.com/elikem2021/freight-eta-toolkit) — Geotab / Samsara / Motive utilities for SMB freight brokers
-- [shopify-quickbooks-sync](https://github.com/elikem2021/shopify-quickbooks-sync) — Shopify ↔ QBO middleware
-- [n8n-self-hosted-toolkit](https://github.com/elikem2021/n8n-self-hosted-toolkit) — Production n8n setup with hardened defaults
-- [avalux-open-source](https://github.com/elikem2021/avalux-open-source) — Hub for everything we publish
+- [freight-eta-toolkit](https://github.com/avalux-io/freight-eta-toolkit) — Geotab / Samsara / Motive utilities for SMB freight brokers
+- [shopify-quickbooks-sync](https://github.com/avalux-io/shopify-quickbooks-sync) — Shopify ↔ QBO middleware
+- [n8n-self-hosted-toolkit](https://github.com/avalux-io/n8n-self-hosted-toolkit) — Production n8n setup with hardened defaults
+- [avalux-open-source](https://github.com/avalux-io/avalux-open-source) — Hub for everything we publish
 
 ## License
 
